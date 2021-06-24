@@ -8,7 +8,7 @@ export const eventBus = new Vue({
       {
         id: "1",
         img:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7ekQ3gBH4qgpA_rFjIi5BRHelutd--Q0xhf76XENxHC_gpsIZA",
+          "https://www.rueducommerce.fr/medias/101ec722ad8b350692393f7a03a5feb4/p_1000x1000/macbook-13-02.jpg",
         title: "MacBook",
         description:
           "Quand nous avons créé le MacBook, nous avons tout simplement tenté limpossible. Cest le plus fin et le plus léger de nos ordinateurs portables",
@@ -17,7 +17,7 @@ export const eventBus = new Vue({
       {
         id: "2",
         img:
-          "https://static.fnac-static.com/multimedia/Images/FR/MDM/e2/0e/1a/1707746/1540-0/tsp20180327114010/PC-Portable-Gaming-Acer-Predator-21-X-GX21-71-76VC-21-Incurve.jpg",
+          "https://www.rueducommerce.fr/medias/101ec722ad8b350692393f7a03a5feb4/p_1000x1000/macbook-13-02.jpg",
         title: "Predator",
         description:
           "The GPU. The source of any competent, powerful gaming machine. With next-gen solutions from NVIDIA® and AMD, this source is overflowing.",
@@ -26,13 +26,14 @@ export const eventBus = new Vue({
       {
         id: "3",
         img:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7ekQ3gBH4qgpA_rFjIi5BRHelutd--Q0xhf76XENxHC_gpsIZA",
+          "https://www.rueducommerce.fr/medias/101ec722ad8b350692393f7a03a5feb4/p_1000x1000/macbook-13-02.jpg",
         title: "MacBook",
         description:
           "Quand nous avons créé le MacBook, nous avons tout simplement tenté l'impossible. C'est le plus fin et le plus léger de nos ordinateurs portables",
         price: 1500,
       },
     ],
+    cart: [],
   },
 });
 
