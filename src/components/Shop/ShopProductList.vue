@@ -1,9 +1,10 @@
 <template>
   <div class="d-flex flex-row flex-wrap">
-    <!-- il faut une key unique car on vuet que chaque item soit unique par rapport à un élément du DOM-->
+    <!-- Vue a besoin d'un attribut key pour chaque composant-->
     <shop-product-item
       v-for="product in products"
       :key="product.id"
+      :product="product"
     ></shop-product-item>
   </div>
 </template>
@@ -14,6 +15,7 @@ export default {
   components: {
     ShopProductItem,
   },
+  // on récupère les données products via le vbind du composant parent Shop.vue
   props: ["products"],
 };
 </script>
